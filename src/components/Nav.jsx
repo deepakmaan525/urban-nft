@@ -3,10 +3,12 @@ import profilePic from '../assets/images/profile-pic.png'
 const Nav = () => {
     return (
         <div>
-            <div className=' max-w-[1140px] mx-auto px-4'>
+            <div className=' max-w-[1140px] mx-auto sm:px-4'>
                 <nav className=' flex justify-between py-6  '>
-                    <div className=' relative max-w-[280px]'>
-                        <input className=' outline-none max-w-[280px] bg-[#F9F9F9] rounded-[18px] py-2 pr -4 px-9 ' type="search" />
+                <input className=' sm:hidden outline-none max-w-[120px] bg-[#F9F9F9] rounded-[18px] py-2  sm:px-9 px-3 placeholder:text-sm ' type="search" placeholder='Search...' />
+
+                    <div className=' relative max-w-[280px] sm:block hidden'>
+                        <input className=' outline-none max-w-[280px] bg-[#F9F9F9] rounded-[18px] py-2  sm:px-9 px-3 ' type="search" />
                         <svg className=' absolute left-4 top-[30%]' xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16" fill="none">
                             <path d="M14.5 15L10.5 11M6.5 13C3.18629 13 0.5 10.3137 0.5 7C0.5 3.68629 3.18629 1 6.5 1C9.81371 1 12.5 3.68629 12.5 7C12.5 10.3137 9.81371 13 6.5 13Z" stroke="#1D1929" />
                         </svg>
@@ -14,8 +16,8 @@ const Nav = () => {
                             <path d="M15 4L6.5 4M6.5 4C6.5 2.89543 5.60457 2 4.5 2C3.39543 2 2.5 2.89543 2.5 4M6.5 4C6.5 5.10457 5.60457 6 4.5 6C3.39543 6 2.5 5.10457 2.5 4M2.5 4L0 4M15 12L12.5 12M12.5 12C12.5 10.8954 11.6046 10 10.5 10C9.39543 10 8.5 10.8954 8.5 12M12.5 12C12.5 13.1046 11.6046 14 10.5 14C9.39543 14 8.5 13.1046 8.5 12M8.5 12L1.27146e-07 12" stroke="#1D1929" />
                         </svg>
                     </div>
-                    <div className=' flex gap-14'>
-                        <div className=' flex justify-between gap-6 items-center'>
+                    <div className='flex gap-14'>
+                        <div className=' md:flex justify-between gap-6 items-center hidden'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
                                 <path d="M14.7715 14.7711C12.6887 16.8539 9.31184 16.8539 7.22905 14.7711M14.7715 14.7711C16.8543 12.6883 16.8543 9.3114 14.7715 7.2286M14.7715 14.7711L17.6 17.5995M7.22905 14.7711C5.14625 12.6883 5.14625 9.3114 7.22905 7.2286M7.22905 14.7711L4.40066 17.5995M14.7715 7.2286C12.6887 5.1458 9.31184 5.1458 7.22905 7.2286M14.7715 7.2286L17.6 4.40017M7.22905 7.2286L4.40066 4.40017M17.6 17.5995C13.9551 21.2444 8.04556 21.2444 4.40066 17.5995M17.6 17.5995C21.2449 13.9546 21.2449 8.04507 17.6 4.40017M4.40066 17.5995C0.755769 13.9546 0.755769 8.04507 4.40066 4.40017M17.6 4.40017C13.9551 0.755281 8.04556 0.75528 4.40066 4.40017" stroke="url(#paint0_linear_33_539)" stroke-width="1.5" />
                                 <defs>
@@ -37,10 +39,10 @@ const Nav = () => {
                         </div>
                         <div>
                             <div className=' flex gap-3'>
-                                <img src={profilePic} alt="profilePic" />
-                                <div className=' flex flex-col justify-center'>
-                                    <p className='text-sm font-bold text-[#474749] leading-4'>Cody Fisher</p>
-                                    <p className=' text-xs font-semibold text-[#77757F] leading-4 '>kenzi.lawson@example.com</p>
+                                <img className=' max-w-none' src={profilePic} alt="profilePic" />
+                                <div className='flex flex-col justify-center'>
+                                    <p className='text-sm font-bold text-[#474749] leading-4 lg:flex hidden'>Cody Fisher</p>
+                                    <p className=' text-xs font-semibold text-[#77757F] leading-4 lg:flex hidden '>kenzi.lawson@example.com</p>
                                 </div>
                             </div>
                         </div>

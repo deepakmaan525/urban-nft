@@ -41,7 +41,7 @@ const NCards = [
 
 const NewNftCards = () => {
     const NftCardsList = NCards.map((NCards) => (
-        <div className="max-w-[319px] p-[9px] bg-white rounded-[18px] mb-3">
+        <div className="xl:max-w-[319px] p-[9px] bg-white rounded-[18px] mb-3">
             <div className="flex w-full gap-3">
                 <div>
                     <img className='w-full h-full' src={NCards.image} alt="Nft-img-1" />
@@ -66,7 +66,7 @@ const NewNftCards = () => {
     ))
     return (
         <>
-                {NftCardsList}
+            {NftCardsList}
         </>
     )
 }

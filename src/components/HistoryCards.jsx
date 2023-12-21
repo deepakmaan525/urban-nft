@@ -48,9 +48,9 @@ const HistoryCards
        </div>
     ))
     return (
-        <>
+        <div className='pt-9 sm:pb-20 pb-4'>
                 {HcardsList}
-        </>
+        </div>
     )
 }
 
