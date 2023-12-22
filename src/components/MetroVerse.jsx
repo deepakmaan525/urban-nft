@@ -15,7 +15,7 @@ const MetroVerse = () => {
   return (
 
     <div className="bg-white rounded-[18px] shadow mt-9 relative max-w-[712px]">     
-      <div className="p-7">
+      <div className="sm:p-7 p-3">
       <div className="flex justify-end gap-6">
         <button onClick={() => first?.current?.slickPrev()}><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path opacity="0.4" d="M14.084 0L5.916 0C2.377 0 0 2.276 0 5.665L0 14.335C0 17.724 2.377 20 5.916 20L14.084 20C17.622 20 20 17.723 20 14.334L20 5.665C20 2.276 17.622 0 14.084 0Z" fill="url(#paint0_linear_11237_207)" />
@@ -49,7 +49,7 @@ const MetroVerse = () => {
         </button>
       </div>
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center order-2 lg:order1">
             <div className="text-darkGold-gradient text-base font-medium font-Inter leading-tight">Create MetroVerse Genesis </div>
             <div className="max-w-[283px] text-[#7C7C7C] text-xs font-medium font-Inter mt-[30px]">physical claim for issue #1 now live. please check that the token is available for claim via website </div>
             <div className="lg:max-w-[290px] mt-[30px]">
@@ -80,9 +80,7 @@ const MetroVerse = () => {
               </div>
             </div>
           </div>
-
-          <div className="max-lg:mt-5 lg:translate-y-14">
-
+          <div className="max-lg:mt-5 lg:translate-y-14 order-1 lg:order-2 ">
             <Slider ref={first} {...settings}>
               <div>
                 <img src={MertroverseImg} alt=" metroverse Img" />
