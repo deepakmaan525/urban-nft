@@ -47,17 +47,17 @@ const NewNftCards = () => {
                     <img className='w-full h-full' src={NCards.image} alt="Nft-img-1" />
                 </div>
                 <div className='w-full'>
-                    <p className="text-[#7C7C7C] text-[7px] font-medium leading-3">{NCards.para1}</p>
-                    <h2 className='text-[#474749] text-sm font-bold leading-4 pt-2'>{NCards.heading}</h2>
-                    <p className="text-[#7C7C7C] text-[7px] font-medium leading-3 pt-2 pb-3">{NCards.para}</p>
+                    <p className="text-[#7C7C7C] text-[7px] font-medium leading-3 font-inter " >{NCards.para1}</p>
+                    <h2 className='text-[#474749] text-sm font-bold leading-4 pt-2 font-inter '>{NCards.heading}</h2>
+                    <p className="text-[#7C7C7C] text-[7px] font-medium leading-3 pt-2 pb-3 font-inter ">{NCards.para}</p>
                     <div className='flex justify-between'>
                         <div className='flex items-center gap-1'>
                             <img className='mt-[2px]' src={NCards.likedImg} alt="likedimg" />
-                            <p className=' text-sm font-medium leading-4 ff-inter text-[#130F26]'>{NCards.liked}</p>
+                            <p className=' text-sm font-medium leading-4 ff-inter text-[#130F26] font-inter '>{NCards.liked}</p>
                         </div>
                         <div className='flex items-center gap-1'>
                             <img className='mt-[2px]' src={NCards.sIcon} alt="icon" />
-                            <p className=' pr-4  text-sm font-medium leading-4 ff-inter text-[#130F26]'>{NCards.number}</p>
+                            <p className=' pr-4  text-sm font-medium leading-4 ff-inter text-[#130F26] font-inter '>{NCards.number}</p>
                         </div>
                     </div>
                 </div>

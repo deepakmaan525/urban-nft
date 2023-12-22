@@ -2,8 +2,8 @@ import React from 'react'
 
 const VerticleTab = () => {
   return (
-    <div className="container max-[425px]:w-[100px] min-[426px]:w-[100px] min-[500px]:w-[200px] sm:w-[300px]">
-      <div className="fixed max-[425px]:w-[100px] sm:w-[300px] min-[426px]:w-[100px] min-[500px]:w-[200px] py-8 px-6 bg-[#FFFDFF] min-h-screen">
+    <div className="container max-[425px]:w-[90px] min-[426px]:w-[100px] min-[500px]:w-[200px] sm:w-[300px]">
+      <div className="fixed max-[425px]:w-[90px] sm:w-[300px] min-[426px]:w-[100px] min-[500px]:w-[200px] py-8 px-6 bg-[#FFFDFF] min-h-screen">
         <div className=" flex flex-col items-center">
           <a href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="38" height="48" viewBox="0 0 38 48" fill="none" >
@@ -16,10 +16,10 @@ const VerticleTab = () => {
               </defs>
             </svg>
           </a>
-          <p className="font-Inter text-base font-bold text-gold-gradient mt-5 bg-gradient-to-b from-[#FFC881] from-15% to-[#DA8517] bg-clip-text text-transparent max-[500px]:hidden ">URBAN NFT </p>
+          <p className="font-Inter text-base font-bold text-gold-gradient mt-5 bg-gradient-to-b from-[#FFC881] from-15% to-[#DA8517] bg-clip-text text-transparent max-[500px]:hidden font-inter  ">URBAN NFT </p>
         </div>
         <div className="mt-16">
-          <p className="text-Black text-xs font-medium font-Inter pl-4 max-[500px]:hidden "> MARKETPLACE</p>
+          <p className="text-Black text-xs font-medium font-Inter pl-4 max-[500px]:hidden font-inter  "> MARKETPLACE</p>
           <button className="flex gap-4 items-center group text-transparent font-semibold text-sm font-Inter py-[14px] px-[15px] rounded-full mt-4 focus:bg-gradient-to-r from-[#FBE8D5] to-[#FEF9F8] w-full">
             <span>
               <svg className='fill-[#A8A8A8] duration-300 group-focus:fill-[url(#paint0_linear_33_463)]' xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" >
@@ -38,7 +38,7 @@ const VerticleTab = () => {
                 </defs>
               </svg>
             </span>
-            <span className=" text-[#7c7c7c] group-focus:bg-gradient-to-b group-focus:from-[#FFC881] from-15% group-focus:to-[#DA8517] group-focus:bg-clip-text group-focus:text-transparent max-[500px]:hidden ">Dashboard</span>
+            <span className=" text-[#7c7c7c] group-focus:bg-gradient-to-b group-focus:from-[#FFC881] from-15% group-focus:to-[#DA8517] group-focus:bg-clip-text font-inter  group-focus:text-transparent max-[500px]:hidden ">Dashboard</span>
           </button>
           <button className="flex gap-4 group focus:bg-gradient-to-r from-[#FBE8D5] to-[#FEF9F8] text-transparent items-center font-semibold text-sm font-Inter py-[14px] px-[15px] rounded-full mt-3 bg-white w-full">
             <span>
@@ -58,7 +58,7 @@ const VerticleTab = () => {
                 </defs>
               </svg>
             </span>
-            <span className=" text-[#7C7C7C] group-focus:bg-gradient-to-b group-focus:from-[#FFC881] from-15% group-focus:to-[#DA8517] group-focus:bg-clip-text group-focus:text-transparent max-[500px]:hidden ">Market</span>
+            <span className=" text-[#7C7C7C] font-inter  group-focus:bg-gradient-to-b group-focus:from-[#FFC881] from-15% group-focus:to-[#DA8517] group-focus:bg-clip-text group-focus:text-transparent max-[500px]:hidden ">Market</span>
           </button>
           <button className="flex group gap-4 items-center focus:bg-gradient-to-r from-[#FBE8D5] to-[#FEF9F8] text-transparent font-semibold text-sm font-Inter py-[14px] px-[15px] rounded-full mt-3 bg-white w-full">
             <span>
@@ -78,7 +78,7 @@ const VerticleTab = () => {
                 </defs>
               </svg>
             </span>
-            <span className=" text-[#7C7C7C] max-[500px]:hidden group-focus:bg-gradient-to-b group-focus:from-[#FFC881] from-15% group-focus:to-[#DA8517] group-focus:bg-clip-text group-focus:text-transparent">Favorites</span>
+            <span className=" text-[#7C7C7C] font-inter  max-[500px]:hidden group-focus:bg-gradient-to-b group-focus:from-[#FFC881] from-15% group-focus:to-[#DA8517] group-focus:bg-clip-text group-focus:text-transparent">Favorites</span>
           </button>
         </div>
         <div className="mt-16">
@@ -101,7 +101,7 @@ const VerticleTab = () => {
                 </defs>
               </svg>
             </span>
-            <span className=" text-[#7C7C7C] max-[500px]:hidden group-focus:bg-gradient-to-b group-focus:from-[#FFC881] from-15% group-focus:to-[#DA8517] group-focus:bg-clip-text group-focus:text-transparent ">Insight</span>
+            <span className=" text-[#7C7C7C] font-inter  max-[500px]:hidden group-focus:bg-gradient-to-b group-focus:from-[#FFC881] from-15% group-focus:to-[#DA8517] group-focus:bg-clip-text group-focus:text-transparent ">Insight</span>
           </button>
           <button className="flex group gap-4 focus:bg-gradient-to-r from-[#FBE8D5] to-[#FEF9F8] text-transparent items-center font-semibold text-sm font-Inter py-[14px] px-[15px] rounded-full mt-3 bg-white w-full">
             <span>
@@ -122,7 +122,7 @@ const VerticleTab = () => {
                 </defs>
               </svg>
             </span>
-            <span className=" text-[#7C7C7C] max-[500px]:hidden group-focus:bg-gradient-to-b group-focus:from-[#FFC881] from-15% group-focus:to-[#DA8517] group-focus:bg-clip-text group-focus:text-transparent">Wallet</span>
+            <span className=" font-inter  text-[#7C7C7C] max-[500px]:hidden group-focus:bg-gradient-to-b group-focus:from-[#FFC881] from-15% group-focus:to-[#DA8517] group-focus:bg-clip-text group-focus:text-transparent">Wallet</span>
           </button>
           <button className="flex group gap-4 focus:bg-gradient-to-r from-[#FBE8D5] to-[#FEF9F8] text-transparent items-center font-semibold text-sm font-Inter py-[14px] px-[15px] rounded-full mt-3 bg-white w-full">
             <span>
@@ -142,7 +142,7 @@ const VerticleTab = () => {
                 </defs>
               </svg>
             </span>
-            <span className=" text-[#7C7C7C] max-[500px]:hidden group-focus:bg-gradient-to-b group-focus:from-[#FFC881] from-15% group-focus:to-[#DA8517] group-focus:bg-clip-text group-focus:text-transparent">Profile</span>
+            <span className=" text-[#7C7C7C] font-inter  max-[500px]:hidden group-focus:bg-gradient-to-b group-focus:from-[#FFC881] from-15% group-focus:to-[#DA8517] group-focus:bg-clip-text group-focus:text-transparent">Profile</span>
           </button>
           <button className="flex group gap-4 focus:bg-gradient-to-r from-[#FBE8D5] to-[#FEF9F8] text-transparent items-center font-semibold text-sm font-Inter py-[14px] px-[15px] rounded-full mt-3 bg-white w-full">
             <span>
@@ -162,7 +162,7 @@ const VerticleTab = () => {
                 </defs>
               </svg>
             </span>
-            <span className=" text-[#7C7C7C] max-[500px]:hidden group-focus:bg-gradient-to-b group-focus:from-[#FFC881] from-15% group-focus:to-[#DA8517] group-focus:bg-clip-text group-focus:text-transparent ">Setting</span>
+            <span className=" text-[#7C7C7C] font-inter  max-[500px]:hidden group-focus:bg-gradient-to-b group-focus:from-[#FFC881] from-15% group-focus:to-[#DA8517] group-focus:bg-clip-text group-focus:text-transparent ">Setting</span>
           </button>
         </div>
       </div>

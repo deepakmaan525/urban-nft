@@ -37,12 +37,12 @@ const HistoryCards
             <img className=' pr-3' src={Hcards.image} alt="HistoryImg" />
             <div className=' justify-between flex w-full items-center'>
                 <div>
-                    <h2 className='text-[#474749] text-sm font-bold leading-4 pb-[6px]'>{Hcards.heading}</h2>
-                    <p className='text-[#474749] text-xs font-normal leading-4'>{Hcards.para1}</p>
+                    <h2 className='text-[#474749] text-sm font-bold leading-4 pb-[6px] font-inter '>{Hcards.heading}</h2>
+                    <p className='text-[#474749] text-xs font-normal leading-4 font-inter '>{Hcards.para1}</p>
                 </div>
                 <div className='flex items-center'>
                     <img src={Hcards.sIcon} alt="icon" />
-                    <p className='text-[#474749] text-xs font-normal leading-4'>{Hcards.number}</p>
+                    <p className='text-[#474749] text-xs font-normal leading-4 font-inter '>{Hcards.number}</p>
                 </div>
             </div>
        </div>

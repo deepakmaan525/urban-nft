@@ -3,17 +3,17 @@ import HistoryCards from './HistoryCards'
 
 const History = () => {
     return (
-        <div>
+        <div className='pt-3 md:pt-0'>
             <div className='xl:max-w-[320px]  rounded-[18px] bg-white sm:p-6 p-2 ]'>
                 <div className='flex justify-between items-center pt-2'>
-                    <p>History</p>
+                    <p className='font-inter text-[#4F4F4F] font-medium text-base '>History</p>
                     <select className='flex items-center group border text-[#4F4F4F] outline-none border-[#A8A8A8] rounded py-2 ps-2 pr-1 relative'>Last Month <svg className=' ms-1 mt-[2px] group-focus:rotate-180 duration-500' width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12.6663 5.6665L7.99967 10.3332L3.33301 5.6665" stroke="#7C7C7C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-                        <option className='hover:bg-slate-100'>Last Month</option>
-                        <option className='hover:bg-slate-100'>August</option>
-                        <option className='hover:bg-slate-100'>September</option>
-                        <option className='hover:bg-slate-100'>October</option>
+                        <option className='hover:bg-slate-100 font-inter '>Last Month</option>
+                        <option className='hover:bg-slate-100 font-inter '>August</option>
+                        <option className='hover:bg-slate-100 font-inter '>September</option>
+                        <option className='hover:bg-slate-100 font-inter '>October</option>
                     </select>
                 </div>
                 <div>

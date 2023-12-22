@@ -15,14 +15,7 @@ import BottomSection from "./components/BottomSection";
 
 function App() {
   return (
-    <div className="bg-[#EDF1F2]">
-      {/* <VerticleTab/> */}
-      {/* <Nav/>
-     <NewNft/>
-     <History/> */}
-      {/* <TopCollection/> */}
-      {/* <Trending/> */}
-      {/* <MetroVerse/> */}
+    <div className="bg-[#EDF1F2]">      
       <div className="flex max-w-[1440px] mx-auto pr-3">
         <div>
           <VerticleTab />

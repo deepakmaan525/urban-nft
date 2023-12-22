@@ -50,30 +50,30 @@ const MetroVerse = () => {
       </div>
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="flex flex-col justify-center order-2 lg:order1">
-            <div className="text-darkGold-gradient text-base font-medium font-Inter leading-tight">Create MetroVerse Genesis </div>
-            <div className="max-w-[283px] text-[#7C7C7C] text-xs font-medium font-Inter mt-[30px]">physical claim for issue #1 now live. please check that the token is available for claim via website </div>
+            <div className="text-darkGold-gradient text-base font-medium font-Inter leading-tight font-inter ">Create MetroVerse Genesis </div>
+            <div className="max-w-[283px] text-[#7C7C7C] text-xs font-medium font-Inter mt-[30px] font-inter ">physical claim for issue #1 now live. please check that the token is available for claim via website </div>
             <div className="lg:max-w-[290px] mt-[30px]">
-              <button >Explorer Now</button>
+              <button className="font-inter " >Explorer Now</button>
               <div className="sm:border border-[#FFC881] rounded-lg sm:max-w-[373px] mt-5 mr-5">
                 <div className="flex w-full sm:flex-row flex-col">
                   <div className="flex w-full max-[425px]:flex-col">
                     <div className=" w-full flex flex-col items-center justify-center sm:border-r border-[#FFC881] pt-3 px-3 pb-2">
-                      <p className="text-orange-300 text-xs font-bold">24.8K</p>
-                      <p className="text-zinc-500 text-[10px] font-medium">Items</p>
+                      <p className="text-orange-300 text-xs font-bold font-inter ">24.8K</p>
+                      <p className="text-zinc-500 text-[10px] font-medium font-inter ">Items</p>
                     </div>
                     <div className=" w-full flex flex-col items-center justify-center sm:border-r border-[#FFC881] pt-3 px-3 pb-2">
-                      <p className="text-orange-300 text-xs font-bold">4,1K</p>
-                      <p className="text-zinc-500 text-[10px] font-medium">Owners</p>
+                      <p className="text-orange-300 text-xs font-bold font-inter ">4,1K</p>
+                      <p className="text-zinc-500 text-[10px] font-medium font-inter ">Owners</p>
                     </div>
                   </div>
                   <div className="flex w-full max-[425px]:flex-col">
                     <div className=" w-full flex flex-col items-center justify-center sm:border-r border-[#FFC881] pt-3 px-3 pb-2">
-                      <p className="text-orange-300 text-xs font-bold">0.221</p>
-                      <p className="text-zinc-500 text-[10px] font-medium text-center">Floor Price</p>
+                      <p className="text-orange-300 text-xs font-bold font-inter ">0.221</p>
+                      <p className="text-zinc-500 text-[10px] font-medium text-center font-inter ">Floor Price</p>
                     </div>
                     <div className=" w-full flex flex-col items-center justify-center pt-3 px-3 pb-2">
-                      <p className="text-orange-300 text-xs font-bold">43.1K</p>
-                      <p className="text-zinc-500 text-[10px] font-medium flex-nowrap text-center" >Volume Traded</p>
+                      <p className="text-orange-300 text-xs font-bold font-inter ">43.1K</p>
+                      <p className="text-zinc-500 text-[10px] font-medium flex-nowrap text-center font-inter " >Volume Traded</p>
                     </div>
                   </div>
                 </div>

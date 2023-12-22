@@ -5,10 +5,10 @@ const Nav = () => {
         <div>
             <div className=' max-w-[1140px] mx-auto sm:px-4'>
                 <nav className=' flex justify-between py-6  '>
-                <input className=' sm:hidden outline-none max-w-[120px] bg-[#F9F9F9] rounded-[18px] py-2  sm:px-9 px-3 placeholder:text-sm ' type="search" placeholder='Search...' />
+                <input className=' sm:hidden outline-none max-w-[120px] bg-[#F9F9F9] rounded-[18px] py-2  sm:px-9 px-3 placeholder:text-sm placeholder:font-franklin ' type="search" placeholder='Search...' />
 
                     <div className=' relative max-w-[280px] sm:block hidden'>
-                        <input className=' outline-none max-w-[280px] bg-[#F9F9F9] rounded-[18px] py-2  sm:px-9 px-3 ' type="search" />
+                        <input className=' outline-none max-w-[280px] bg-[#F9F9F9] rounded-[18px] py-2 placeholder:text-[#A5A3A9] placeholder:text-sm placeholder:font-normal placeholder:font-inter  sm:px-9 px-3 ' type="search" placeholder='Search...' />
                         <svg className=' absolute left-4 top-[30%]' xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16" fill="none">
                             <path d="M14.5 15L10.5 11M6.5 13C3.18629 13 0.5 10.3137 0.5 7C0.5 3.68629 3.18629 1 6.5 1C9.81371 1 12.5 3.68629 12.5 7C12.5 10.3137 9.81371 13 6.5 13Z" stroke="#1D1929" />
                         </svg>
@@ -41,8 +41,8 @@ const Nav = () => {
                             <div className=' flex gap-3'>
                                 <img className=' max-w-none' src={profilePic} alt="profilePic" />
                                 <div className='flex flex-col justify-center'>
-                                    <p className='text-sm font-bold text-[#474749] leading-4 lg:flex hidden'>Cody Fisher</p>
-                                    <p className=' text-xs font-semibold text-[#77757F] leading-4 lg:flex hidden '>kenzi.lawson@example.com</p>
+                                    <p className='text-sm font-bold text-[#474749] leading-4 lg:flex hidden font-franklin'>Cody Fisher</p>
+                                    <p className=' text-xs font-semibold text-[#77757F] leading-4 lg:flex hidden font-franklin'>kenzi.lawson@example.com</p>
                                 </div>
                             </div>
                         </div>
