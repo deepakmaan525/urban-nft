@@ -3,7 +3,7 @@ import React from 'react'
 const VerticleTab = () => {
   return (
     <div className="container max-[425px]:w-[90px] min-[426px]:w-[100px] min-[500px]:w-[200px] sm:w-[300px]">
-      <div className="fixed max-[425px]:w-[90px] sm:w-[300px] min-[426px]:w-[100px] min-[500px]:w-[200px] py-8 px-6 bg-[#FFFDFF] min-h-screen">
+      <div className="fixed max-[425px]:w-[90px] sm:w-[300px] min-[426px]:w-[100px] min-[500px]:w-[200px] py-8 px-6 bg-[#FFFDFF] h-full overflow-y-scroll">
         <div className=" flex flex-col items-center">
           <a href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="38" height="48" viewBox="0 0 38 48" fill="none" >

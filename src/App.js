@@ -1,7 +1,5 @@
 import "./App.css";
 import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-// import TopCollection from './components/CollectionCards';
 import History from "./components/History";
 import MetroVerse from "./components/MetroVerse";
 import Nav from "./components/Nav";

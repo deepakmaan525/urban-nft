@@ -10,7 +10,7 @@ const NCards = [
         image: NftImg1,
         para1: 'Metroverse Genesis',
         heading: 'Block #1460',
-        para: 'Owned by BabyKee',
+        para: "Owned by <span class='bg-gradient-to-b from-[#ECA54A] from-15% to-[#E59937] bg-clip-text text-transparent font-bold'>BabyKee</span>",
         liked: '1K',
         likedImg: LikedImg,
         number: '21',
@@ -20,7 +20,7 @@ const NCards = [
         image: NftImg2,
         para1: 'Metroverse Genesis',
         heading: 'Block #1460',
-        para: 'Owned by BabyKee',
+        para: "Owned by <span class='bg-gradient-to-b from-[#ECA54A] from-15% to-[#E59937] bg-clip-text text-transparent font-bold'>BabyKee</span>",
         liked: '1K',
         likedImg: LikedImg,
         number: '21',
@@ -30,7 +30,7 @@ const NCards = [
         image: NftImg3,
         para1: 'Metroverse Genesis',
         heading: 'Block #1460',
-        para: 'Owned by BabyKee',
+        para: "Owned by <span class='bg-gradient-to-b from-[#ECA54A] from-15% to-[#E59937] bg-clip-text text-transparent font-bold'>BabyKee</span>",
         liked: '1K',
         likedImg: LikedImg,
         number: '21',
@@ -49,7 +49,7 @@ const NewNftCards = () => {
                 <div className='w-full'>
                     <p className="text-[#7C7C7C] text-[7px] font-medium leading-3 font-inter " >{NCards.para1}</p>
                     <h2 className='text-[#474749] text-sm font-bold leading-4 pt-2 font-inter '>{NCards.heading}</h2>
-                    <p className="text-[#7C7C7C] text-[7px] font-medium leading-3 pt-2 pb-3 font-inter ">{NCards.para}</p>
+                    <p className="text-[#7C7C7C] text-[7px] font-medium leading-3 pt-2 pb-3 font-inter " dangerouslySetInnerHTML={{ __html: NCards.para }}></p>
                     <div className='flex justify-between'>
                         <div className='flex items-center gap-1'>
                             <img className='mt-[2px]' src={NCards.likedImg} alt="likedimg" />
